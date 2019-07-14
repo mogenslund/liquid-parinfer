@@ -2,7 +2,7 @@
 Perinfer for liquid text editor.
 
 ## Install
-I will assume you have a local setup which depends on liquid. The steps below may be adjusted to your local setup and if you use Leiningen instead of deps.edn.
+I will assume you have a local setup which depends on liquid. The steps below may be adjusted to your local setup and if you use Leiningen instead of deps.edn. (It is also possible to reference the github project directly from deps.edn)
 
 Basically the goal is to include liquid-parinfer and activate it by executing the `dk.salza.parinfer/run` function.
 
@@ -34,3 +34,6 @@ and execute the following in the code:
 
 This will enable parinfer and add an interactive function "Toggle parinfer" (Use C-space to get typeahead to choose the interactive function).
 Toggle parinfer will toggle "insert-mode" between using parinfer and not using parinfer.
+
+## Credits
+This project takes advantage of [github.com/oakmac/parinfer-jvm](https://github.com/oakmac/parinfer-jvm).
