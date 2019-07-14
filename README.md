@@ -1,5 +1,5 @@
 # liquid-parinfer
-Perinfer for liquid text editor.
+Perinfer for [liquid text editor](https://github.com/mogenslund/liquid)
 
 ## Status
 Status is: Ready to try and test!
