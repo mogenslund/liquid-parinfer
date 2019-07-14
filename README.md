@@ -1,6 +1,13 @@
 # liquid-parinfer
 Perinfer for liquid text editor.
 
+## Status
+Status is: Ready to try and test!
+
+There may be edge cases that will make Liquid crash. For those I have found myself, I need to analyze if it is the dependency that fails or me using it wrongly.
+
+I do not have much experience with parinfer so far, so feedback on expectations are welcome. I have kind of started to like parinfer through this project.
+
 ## Install
 I will assume you have a local setup which depends on liquid. The steps below may be adjusted to your local setup and if you use Leiningen instead of deps.edn. (It is also possible to reference the github project directly from deps.edn)
 
