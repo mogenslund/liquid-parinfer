@@ -44,7 +44,7 @@
                 (set-mark "parinfer")
                 beginning-of-toplevel)
         substring (get-region sl0 "parinfer")
-        modified (Parinfer/indentMode substring (Integer. col) (Integer. (- lnr (get-linenumber sl0))) nil false)]
+        modified (Parinfer/indentMode substring (int col) (int (- lnr (get-linenumber sl0))) nil false)]
      (-> sl0
          (delete-region "parinfer")
          (insert (.text modified))
