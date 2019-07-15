@@ -4,8 +4,6 @@ Perinfer for [liquid text editor](https://github.com/mogenslund/liquid)
 ## Status
 Status is: Ready to try and test!
 
-There may be edge cases that will make Liquid crash. For those I have found myself, I need to analyze if it is the dependency that fails or me using it wrongly.
-
 I do not have much experience with parinfer so far, so feedback on expectations are welcome. I have kind of started to like parinfer through this project.
 
 ## Install
