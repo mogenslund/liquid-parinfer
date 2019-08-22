@@ -77,8 +77,8 @@
 (defn parinfer-keymap
   []
   (assoc ((@editor/editor ::editor/keymaps) "dk.salza.liq.keymappings.insert")
-     "backspace" #(-> % (delete 1) par-indent-toplevel)
-     " " #(-> % (insert " ") par-indent-toplevel)
+     "backspace" (fn [] (editor/set-undo-point) (editor/apply-to-slider #(-> % (delete 1) par-indent-toplevel)))
+     " " (fn [] (editor/set-undo-point) (editor/apply-to-slider #(-> % (insert " ") par-indent-toplevel)))
      :selfinsert (fn [string] (editor/apply-to-slider #(par-indent-toplevel (insert % string))))))
 
 (defn toggle-parinfer
