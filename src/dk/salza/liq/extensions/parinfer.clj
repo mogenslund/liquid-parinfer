@@ -1,7 +1,8 @@
-(ns dk.salza.parinfer
+(ns dk.salza.liq.extensions.parinfer
   ( :require [dk.salza.liq.editor :as editor]
              [dk.salza.liq.slider :refer :all])
   (:import [com.oakmac.parinfer Parinfer]))
+
 
 (def old-insertmode (atom nil))
 

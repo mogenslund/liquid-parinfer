@@ -1,5 +1,5 @@
 # liquid-parinfer
-Perinfer for [liquid text editor](https://github.com/mogenslund/liquid)
+Parinfer for [liquid text editor](https://github.com/mogenslund/liquid)
 
 ## Status
 Status is: Ready to try and test!
@@ -28,13 +28,13 @@ To enable the extension require the following in you code:
 
 ```clojure
 (ns user
-  (:require [dk.salza.parinfer]))
+  (:require [dk.salza.liq.extensions.parinfer]))
 ```
 
 and execute the following in the code:
 
 ```clojure
-(dk.salza.parinfer/run)
+(dk.salza.liq.extensions.parinfer/run)
 ```
 
 This will enable parinfer and add an interactive function "Toggle parinfer" (Use C-space to get typeahead to choose the interactive function).
